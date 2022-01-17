@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="build/css/styles.css">
+  <script src="https://kit.fontawesome.com/f6b5f5e3f8.js" crossorigin="anonymous"></script>
+  <title>CafeTime</title>
+</head>
+<body> 
+
+
+<br>
+    <div class="nav-bar message-top">
+      <div class="container text-center">
+        ¿BUSCANDO EL MEJOR CAFE DE SANTIAGO?: ★ CONTACTANOS. <img src="https://img.icons8.com/external-tulpahn-outline-color-tulpahn/34/000000/external-emoji-birthday-party-tulpahn-outline-color-tulpahn.png"/> ESTAMOS EN TODAS <b> LAS COMUNAS DE SANTIAGO</b> 
+      </div>
+    </div>
+
+    <ul class="nav justify-content-center">
+      <li class="nav-item display-1"  >
+        <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+      </li>
+      <li class="nav-item display-1">
+        <a class="nav-link" href="productos.html">Productos</a>
+      </li>
+      <li class="nav-item display-1">
+        <a class="nav-link" href="contacto.html">Contacto</a>
+      </li>
+    </ul>
+    
+
+
+  <!-- header -->
+  <header class="container header">
+    <div class="row align-items-center">
+      <div class="col-md-6 mb-5 mb-md-0">
+        <span class="text-primary">CafeTime</span>
+        <h1 class="display-2">
+          Disfruta, el cafe y disfruta el momento. 
+        </h1>
+        <p class="fs-3">Visita nuestros locales y disfruta el placer del mejor cafe en compañia de tus amigos.
+        </p>
+        <a href="#" class="btn btn-primary">Conoce Más</a>
+      </div>
+      <div class="col-md-6">
+        <img class="img-fluid rounded" src="img/header.jpg" alt="imagen cafe time header">
+      </div>
+
+    </div>
+  </header>
+  <!-- /header -->
+
+  <!-- contenedor -->
+  <section class="container">
+    <h2 class="fs-1 text-center" >
+      Nuestros Productos
+    </h2>
+    
+    <!-- en el siguiente parrafo se utilizó w-50 (width 50% y mx-auto para centrar el margen -> parecido al margin: 0 auto; de css) -->
+
+    <p class="text-center w-50 mx-auto">Conoce las distintas variedades de cafés, tés, pasteles y postres, todo artesanal, hecho por nuestras manos, maestras del dulce. Ambiente acogedor, especial para disfrutar los mejores momentos. Tenemos una amplia carta, que siempre te sorprenderá</p>
+    
+    <div class="row">
+      
+      <div class="col-md-4" >
+        <figure>
+          <img class="img-fluid" src="img/figura3.png" alt="imagen pastel de chocolate">
+        </figure>
+        <h3 class="text-secondary text-center fs-4" >Pastel de chocolate </h3>
+        <p class="text-center" >
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Id iusto ipsam nemo deleniti sunt, repudiandae facere error maxime eum repellat nam quo facilis accusantium ullam tenetur molestiae. Pariatur, exercitationem eligendi?
+        </p>
+      </div>
+
+      <div class="col-md-4">
+        <figure>
+          <img class="img-fluid" src="img/figura2.png" alt="imagen de un café">
+        </figure>
+        <h3 class="text-secondary text-center fs-4">Cafés</h3>
+        <p class="text-center">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Id iusto ipsam nemo deleniti sunt, repudiandae facere error maxime eum repellat nam quo facilis accusantium ullam tenetur molestiae. Pariatur, exercitationem eligendi?
+        </p>
+      </div>
+
+      <div class="col-md-4">
+        <figure>
+          <img class="img-fluid" src="img/figura4.png" alt="imagen tiramisú">
+        </figure>
+        <h3 class="text-secondary text-center fs-4">Pastel Tiramisú</h3>
+        <p class="text-center">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Id iusto ipsam nemo deleniti sunt, repudiandae facere error maxime eum repellat nam quo facilis accusantium ullam tenetur molestiae. Pariatur, exercitationem eligendi?
+        </p>
+      </div>
+
+    </div>
+    <div class="d-flex justify-content-center my-5 ">
+      <a href="#" class="btn btn-secondary text-white">Mas Información</a>
+    </div>
+  </section>
+
+  <main class="container locales my-5">
+
+    <div class="d-flex justify-content-between">
+      <h2>Nuestros Locales</h2>
+      <!-- d-none para esconder d-sm-block para mostrar en sm -->
+      <a href="#" class="text-decoration-none d-none d-sm-block">Explora más Locales</a>
+    </div>
+
+    <!-- row cards -->
+    <div class="row mt-4">
+      <!-- cards -->
+      <div class="col-md-6 col-lg-3">
+        <div class="card">
+          <img class="card-img-top" src="img/photo1jpg.jpeg" alt="img local 1">
+          <div class="card-body">
+            <p class="card-text fw-bold horarios text-center" >Lu a Vi, desde las 10:00 a 22:00 hrs</p>
+            <p class="card-text descripcion text-center" >Excelente lugar para descansar y disfrutar de un café con amigos</p>
+            <h3 class="card-title fs-5 text-center"> ¿Como llegar? </h3>
+            <br>
+            <p class="card-text descripcion text-center" > <button type="button" class=" btn btn-primary text-light " data-bs-toggle="modal"
+              data-bs-target="#exampleModal1">
+              Ver Dirección
+            </button>
+          
+            <button type="button" class=" btn btn-primary text-light" data-bs-toggle="modal"
+            data-bs-target="#exampleModal2"> Como llegar </button>
+          
+          </p> 
+            
+          </div>
+        </div>
+      </div>
+
+      <!-- /cards -->
+
+      <div class="col-md-6 col-lg-3">
+        <div class="card">
+          <img class="card-img-top" src="img/local2.jpeg" alt="img local 2">
+          <div class="card-body">
+            <p class="card-text fw-bold horarios text-center" >Lu a Vi, desde las 10:00 a 22:00 hrs</p>
+            <p class="card-text descripcion text-center" >Excelente lugar para descansar y disfrutar de un café con amigos</p>
+            <h3 class="card-title fs-5 text-center"> ¿Como llegar? </h3>
+            <br>
+            <p class="card-text descripcion text-center" > <button type="button" class=" btn btn-primary text-light " data-bs-toggle="modal"
+              data-bs-target="#exampleModal1">
+              Ver Dirección
+            </button> </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-3">
+        <div class="card">
+          <img class="card-img-top" src="img/local3.jpeg" alt="img local 1">
+          <div class="card-body">
+            <p class="card-text fw-bold horarios text-center" >Lu a Vi, desde las 10:00 a 22:00 hrs</p>
+            <p class="card-text descripcion text-center" >Excelente lugar para descansar y disfrutar de un café con amigos</p>
+            <h3 class="card-title fs-5 text-center"> ¿Como llegar? </h3>
+            <br>
+            <p class="card-text descripcion text-center" > <button type="button" class=" btn btn-primary text-light " data-bs-toggle="modal"
+              data-bs-target="#exampleModal1">
+              Ver Dirección
+            </button> </p>
+          </div>
+        </div>
+      </div>
+
+
+      
+
+      <div class="col-md-6 col-lg-3">
+        <div class="card">
+          <img class="card-img-top" src="img/local4.jpeg" alt="img local 1">
+          <div class="card-body">
+            <p class="card-text fw-bold horarios text-center" >Lu a Vi, desde las 10:00 a 22:00 hrs</p>
+            <p class="card-text descripcion text-center" >Excelente lugar para descansar y disfrutar de un café con amigos</p>
+            <h3 class="card-title fs-5 text-center"> ¿Como llegar? </h3>
+            <br>
+            <p class="card-text descripcion text-center" > <button type="button" class=" btn btn-primary text-light " data-bs-toggle="modal"
+              data-bs-target="#exampleModal1">
+              Ver Dirección
+            </button> </p> 
+            
+          </div>
+        </div>
+      </div> 
+    </div>
+    <!--  /row cards -->
+   
+    <!-- aplicaciones moviles -->
+    <section class="app-movil container mt-5">
+      <div class="row" >
+        <div class="offset-md-4 col-md-4">
+          <span class="d-block mx-auto text-primary">Cafetime</span>
+          <p class="text-center fw-bold mt-5 fs-4">Mantente conectado, Descarga Coffe Time App</p> 
+          <div class="d-flex gap-4">
+            <div class="col">
+              <a href="#">
+                <img class="img-fluid" src="img/svg/tienda-android.svg" alt="imagen tienda android">
+              </a>
+            </div>
+
+            <div class="col">
+              <a href="#">
+                <img class="img-fluid" src="img/svg/tienda-apple.svg" alt="imagen tienda apple">
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+    <!-- /aplicaciones moviles -->
+  </main>
+
+  <!-- footer -->
+<footer class="bg-dark text-center text-white">
+  <!-- Grid container -->
+  <div class="container p-4">
+    <!-- Section: Social media -->
+    <section class="mb-4">
+      <!-- Facebook -->
+      
+      <img src="https://img.icons8.com/dusk/64/000000/facebook--v1.png"/>
+      
+      <!-- Google -->
+      
+      <img src="https://img.icons8.com/dusk/64/000000/google-logo--v1.png"/>
+      <!-- Instagram -->       
+       
+      <img src="https://img.icons8.com/dusk/64/000000/github.png"/>
+      <!-- Instagram -->
+      <img src="https://img.icons8.com/dusk/64/000000/instagram-new--v2.png"/>
+      
+
+      <!-- Twitter -->
+      <img src="https://img.icons8.com/dusk/64/000000/twitter--v1.png"/>
+    </section>
+    <!-- Section: Social media -->
+
+    <!-- Section: Form -->
+    <section class="">
+      <form action="">
+        <!--Grid row-->
+        <div class="row d-flex justify-content-center">
+          <!--Grid column-->
+          <div class="col-auto">
+            <p class="pt-2">
+           
+              <a class="text-white text-decoration-none" href="#">Registrate a nuestro newsletter</a>
+            </p>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-md-5 col-12">
+            <!-- Email input -->
+            <div class="form-outline form-white mb-4">
+              <input type="email" id="form5Example21" class="form-control" />
+              <label class="form-label" for="form5Example21"> Ingresa tu Email </label>
+            </div>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-auto">
+            <!-- Submit button -->
+            
+            <button type="button" class="btn btn-info">Suscribirse</button>
+          </div>
+          <!--Grid column-->
+        </div>
+        <!--Grid row-->
+      </form>
+    </section>
+    <!-- Section: Form -->
+     <br>
+    <!-- Section: Text -->
+    <section class="mb-4">
+      <p>
+        Aquí es el lugar en donde te podrás relajar y disfrutar de un buen café. Ven a conocernos. Nuestro equipo siempre esta listo para atenderles 
+      </p> 
+      <img src="https://img.icons8.com/external-justicon-lineal-color-justicon/64/000000/external-emoji-emoji-justicon-lineal-color-justicon-3.png"/>
+    </section>
+
+    <section class="mb-4">
+        
+      <h4 class="text-uppercase">Encuentranos en Todas las Comunas de Santiago</h4>
+
+    <!-- Section: Text -->
+    
+        
+ 
+      <!--Grid row-->
+    </section>
+    <!-- Section: Links -->
+  </div>
+  <!-- Grid container -->
+
+ <!-- Section: Links -->
+ <section class="">
+  <!--Grid row-->
+  <div class="row">
+    <!--Grid column-->
+    <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+      <h5 class="text-uppercase"></h5>
+
+      <ul class="list-unstyled mb-0">
+        <li>
+          <a href="#!" class="text-white">Providencia</a>
+        </li>
+        <li>
+          <a href="#!" class="text-white">las Condes</a>
+        </li>
+        <li>
+          <a href="#!" class="text-white">Vitacura</a>
+        </li>
+        <li>
+          <a href="#!" class="text-white">La reina</a>
+        </li>
+        <li>
+          <a href="#!" class="text-white">Peñaflor</a>
+        </li>
+      </ul>
+    </div>
+    <!--Grid column-->
+
+    <!--Grid column-->
+    <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+      <h5 class="text-uppercase"> La Florida</h5>
+
+      <ul class="list-unstyled mb-0">
+        <li>
+          <a href="#!" class="text-white">Pedro aguirrez cerda</a>
+        </li>
+        <li>
+          <a href="#!" class="text-white">Peñalolen</a>
+        </li>
+        <li>
+          <a href="#!" class="text-white">La Florida</a>
+        </li>
+        <li>
+          <a href="#!" class="text-white">Puente Alto</a>
+        </li>
+      </ul>
+    </div>
+    <!--Grid column-->
+
+    <!--Grid column-->
+    <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+      <h5 class="text-uppercase">Renca</h5>
+
+      <ul class="list-unstyled mb-0">
+        <li>
+          <a href="#!" class="text-white">Nuñoa</a>
+        </li>
+        <li>
+          <a href="#!" class="text-white">San Miguel</a>
+        </li>
+        <li>
+          <a href="#!" class="text-white">La Granja</a>
+        </li>
+        <li>
+          <a href="#!" class="text-white">Peñalolen</a>
+        </li>
+      </ul>
+    </div>
+    <!--Grid column-->
+
+    <!--Grid column-->
+    <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+      <h5 class="text-uppercase">Macul</h5>
+
+      <ul class="list-unstyled mb-0">
+        <li>
+          <a href="#!" class="text-white">La Dehesa</a>
+        </li>
+        <li>
+          <a href="#!" class="text-white">La Florida</a>
+        </li>
+        <li>
+          <a href="#!" class="text-white">la reina</a>
+        </li>
+        <li>
+          <a href="#!" class="text-white">La Pintana</a>
+        </li>
+      </ul>
+    </div>
+    <!--Grid column-->
+  </div>
+  <br>
+  <!--Grid row-->
+</section>
+
+
+  <!-- Copyright -->
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+    © 2022 All Rights Reserved:
+    <a class="text-white text-decoration-none" href="#">Iperezgamboa</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+
+  <!-- /footer -->
+
+
+  <!-- modal1 -->
+  <div class="modal fade " id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Local Las Condes</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>Lorem ipsum dolor sit.</p>
+          <div class="mapouter">
+            <div class="gmap_canvas">
+              <iframe class="gmap_iframe" width="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
+                src="https://maps.google.com/maps?width=350&amp;height=350&amp;hl=en&amp;q=alto las condes&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+              <a href="https://www.fridaynightfunkin.net/friday-night-funkin-mods-fnf-play-online/">FNF</a>
+            </div>
+            <style>
+              .mapouter {
+                position: relative;
+                text-align: right;
+                width: 100%;
+                height: 350px;
+              }
+
+              .gmap_canvas {
+                overflow: hidden;
+                background: none !important;
+                width: 100%;
+                height: 350px;
+              }
+
+              .gmap_iframe {
+                height: 350px !important;
+              }
+            </style>
+          </div>
+        </div>
+       </div>
+    </div>
+  </div>
+
+    <!-- Modal2-->
+    <div class="modal fade " id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Local Vitacura</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <p>Lorem ipsum dolor sit.</p>
+            <div class="mapouter">
+              <div class="gmap_canvas"><iframe class="gmap_iframe" width="100%" frameborder="0" scrolling="no"
+                  marginheight="0" marginwidth="0"
+                  src="https://maps.google.com/maps?width=350&amp;height=350&amp;hl=en&amp;q=Nueva Costanera 3900&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a
+                  href="https://www.fridaynightfunkin.net/friday-night-funkin-mods-fnf-play-online/">FNF</a></div>
+              <style>
+                .mapouter {
+                  position: relative;
+                  text-align: right;
+                  width: 100%;
+                  height: 350px;
+                }
+  
+                .gmap_canvas {
+                  overflow: hidden;
+                  background: none !important;
+                  width: 100%;
+                  height: 350px;
+                }
+  
+                .gmap_iframe {
+                  height: 350px !important;
+                }
+              </style>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary text-light" data-bs-dismiss="modal">
+              Ver Productos
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
+  <!-- Modal3 -->
+  <div class="modal fade " id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Local Vitacura</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>Lorem ipsum dolor sit.</p>
+          <div class="mapouter">
+            <div class="gmap_canvas"><iframe class="gmap_iframe" width="100%" frameborder="0" scrolling="no"
+                marginheight="0" marginwidth="0"
+                src="https://maps.google.com/maps?width=350&amp;height=350&amp;hl=en&amp;q=Av. Nueva Providencia 2214&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a
+                href="https://www.fridaynightfunkin.net/friday-night-funkin-mods-fnf-play-online/">FNF Mods</a>
+            </div>
+            <style>
+              .mapouter {
+                position: relative;
+                text-align: right;
+                width: 100%;
+                height: 350px;
+              }
+
+              .gmap_canvas {
+                overflow: hidden;
+                background: none !important;
+                width: 100%;
+                height: 350px;
+              }
+
+              .gmap_iframe {
+                height: 350px !important;
+              }
+            </style>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary text-light" data-bs-dismiss="modal">
+            Ver Productos
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- /modal3 -->
+
+  <!-- Modal4-->
+  <div class="modal fade " id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Local Vitacura</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>Lorem ipsum dolor sit.</p>
+          <div class="mapouter">
+            <div class="gmap_canvas"><iframe class="gmap_iframe" width="100%" frameborder="0" scrolling="no"
+                marginheight="0" marginwidth="0"
+                src="https://maps.google.com/maps?width=350&amp;height=350&amp;hl=en&amp;q= Puente 689&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a
+                href="https://www.fridaynightfunkin.net/friday-night-funkin-mods-fnf-play-online/">FNF Mods</a>
+            </div>
+            <style>
+              .mapouter {
+                position: relative;
+                text-align: right;
+                width: 100%;
+                height: 350px;
+              }
+
+              .gmap_canvas {
+                overflow: hidden;
+                background: none !important;
+                width: 100%;
+                height: 350px;
+              }
+
+              .gmap_iframe {
+                height: 350px !important;
+              }
+            </style>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary text-light" data-bs-dismiss="modal">
+            Ver Productos
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+</body>
+</html> 
+

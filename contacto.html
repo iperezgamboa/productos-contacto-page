@@ -10,30 +10,30 @@
   <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="build/css/styles.css">
   <script src="https://kit.fontawesome.com/f6b5f5e3f8.js" crossorigin="anonymous"></script>
-  <title>CafeTime</title>
+  <title>Tours</title>
 </head>
 <body> 
 
 
-<br>
-    <div class="nav-bar message-top">
-      <div class="container text-center">
-        ¿BUSCANDO EL MEJOR CAFE DE SANTIAGO?: ★ CONTACTANOS. <img src="https://img.icons8.com/external-tulpahn-outline-color-tulpahn/34/000000/external-emoji-birthday-party-tulpahn-outline-color-tulpahn.png"/> ESTAMOS EN TODAS <b> LAS COMUNAS DE SANTIAGO</b> 
       </div>
     </div>
-
+ 
     <ul class="nav justify-content-center">
         <li class="nav-item display-1"  >
           <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
         </li>
         <li class="nav-item display-1">
-          <a class="nav-link" href="productos.html">Productos</a>
+          <a class="nav-link" href="productos.html">Tours</a>
         </li>
         <li class="nav-item display-1">
           <a class="nav-link" href="contacto.html">Contacto</a>
         </li>
     </ul>
     <br>
+
+    <div class="offset-md-4 col-md-4">
+      <span class="text-primary">Escribenos para agendar su tour</span> 
+      </div>
     <div class="container">
         <br>
         <form action="action_page.php">
@@ -51,9 +51,18 @@
             <option value="usa">Nuñoa</option>
             <option value="usa">La Reina</option>
             <option value="usa">Las Condes</option>
+          </select> 
+
+          <label for="country">Seleccionar el Tipo de Tour</label>
+          <select id="country" name="country">
+            <option value="City Tour 1">City Tour 1 dia</option>
+            <option value="Viñedo y Montaña">Viñedo y Montaña</option>
+            <option value="usa">City Tour 2 dias</option>
+            <option value="usa">Casa Blanca Valley</option>
+            <option value="usa">Maipo Valley</option>
           </select>
       
-          <label for="subject">Subject</label>
+          <label for="subject">Tema</label>
           <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
       
           <input type="submit" value="Submit">
